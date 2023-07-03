@@ -14,7 +14,7 @@ const FunctionalComponent = ({ namaBelakang, namaDepan }) => {
 
     return (
         <>
-            <h3>Selamat Datang {namaDepan} {namaBelakang}, ini adalah komponent bagian Functional Component</h3>
+            <h3>Selamat Datang {namaDepan} {namaBelakang} , ini adalah komponent bagian Functional Component</h3>
             <button onClick={handleMinus}> - </button>
             <span> {value} </span>
             <button onClick={handlePlus}> + </button>
