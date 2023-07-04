@@ -56,7 +56,7 @@ export default class Content extends React.Component {
                     <Col md={2}><img src={img1} width="150px" height="150px" alt="img1" /></Col>
                     <Col md={2}>
                         <h5>Dibimbing Sampai Bisa!</h5>
-                        <p style={{ textAlign: "justify" }}>Walaupun kamu tidak memiliki latar belakang skill digital. Kamu masih bisa belajar karena materi di sesuaikan untuk pemula. Dan akan dibimbing oleh mentor/praktisi.</p>
+                        <p style={{ textAlign: "justify" }}>Walaupun kamu tidak memiliki latar belakang skill digital . Kamu masih bisa belajar karena materi di sesuaikan untuk pemula. Dan akan dibimbing oleh mentor/praktisi.</p>
                     </Col>
                 </Row>
             </Container >
