@@ -1,9 +1,9 @@
-import Komponen from './Materi/Komponen';
+import Portofolio from './Materi/Portofolio';
 
 function App() {
   return (
     <div className="App">
-      <Komponen />
+      <Portofolio />
     </div>
   );
 }
