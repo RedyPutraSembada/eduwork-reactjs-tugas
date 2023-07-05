@@ -1,9 +1,9 @@
-import Portofolio from './Materi/Portofolio';
+import FormValidasi from './Materi/FormValidasi';
 
 function App() {
   return (
     <div className="App">
-      <Portofolio />
+      <FormValidasi />
     </div>
   );
 }

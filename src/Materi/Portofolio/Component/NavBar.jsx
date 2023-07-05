@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
+import { Button, Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import logo from "./../../../assets/img/edwork.png";
 
 export default class NavBar extends React.Component {
@@ -17,7 +17,7 @@ export default class NavBar extends React.Component {
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="#features">Login</Nav.Link>
-                            <Nav.Link href="#features"><a className="btn btn-primary">Register</a></Nav.Link>
+                            <Nav.Link href="#features"><Button className="btn btn-primary">Register</Button></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
