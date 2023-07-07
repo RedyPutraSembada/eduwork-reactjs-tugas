@@ -4,6 +4,7 @@ import Portofolio from "./Materi/Portofolio";
 import FormValidasi from "./Materi/FormValidasi";
 import Komponen from "./Materi/Komponen";
 import Home from "./Materi/home";
+import NewsFunction from "./Materi/Hook";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/portofolio" element={<Portofolio />} />
           <Route path="/registrasi" element={<FormValidasi />} />
           <Route path="/berita" element={<PortalBerita />} />
+          <Route path="/berita-function" element={<NewsFunction />} />
         </Routes>
       </Router>
     </div>
