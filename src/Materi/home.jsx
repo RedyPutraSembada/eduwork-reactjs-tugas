@@ -10,6 +10,7 @@ export default class Home extends React.Component {
                 <a href="/registrasi" className="btn btn-primary p-3 m-3">Form Validasi Materi 23</a>
                 <a href="/berita" className="btn btn-primary p-3 m-3">Lifecycle Components Materi 24</a>
                 <a href="/berita-function" className="btn btn-primary p-3 m-3">Function Components Materi 25</a>
+                <a href="/redux" className="btn btn-primary p-3 m-3">Redux Materi 27</a>
             </Container>
         )
     }

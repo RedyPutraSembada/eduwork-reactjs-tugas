@@ -5,6 +5,7 @@ import FormValidasi from "./Materi/FormValidasi";
 import Komponen from "./Materi/Komponen";
 import Home from "./Materi/home";
 import NewsFunction from "./Materi/Hook";
+import Redux from "./Materi/Redux";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/registrasi" element={<FormValidasi />} />
           <Route path="/berita" element={<PortalBerita />} />
           <Route path="/berita-function" element={<NewsFunction />} />
+          <Route path="/redux" element={<Redux />} />
         </Routes>
       </Router>
     </div>

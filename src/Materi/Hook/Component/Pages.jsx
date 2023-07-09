@@ -18,7 +18,6 @@ const Pages = (props) => {
         let c = `country=us&`;
         let ak = `apiKey=d4c14ef9e6504f48b095da1191dee657`;
         let api = `${u}${input != null ? `q=${input}&` : q}${c}${ak}`;
-        // let row = document.getElementById('data');
         axios.get(api)
             .then(function (response) {
                 setData(response.data.articles);
@@ -28,7 +27,6 @@ const Pages = (props) => {
                 console.log(error);
             })
             .finally(function () {
-                // row.innerHTML = data;
             });
     }, [input]);
 
@@ -48,15 +46,6 @@ const Pages = (props) => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    // <Col className="d-flex justify-content-center py-2" key={`card-${i}`}>
-                    //     <div className="card" style={{ width: "18rem" }} />
-                    //     <img src={item.urlToImage} className="card-img-top" alt="..." />
-                    //     <div className="card-body">
-                    //         <h5 className="card-title">{item.title}</h5>
-                    //         <p className="card-text">{item.description}</p>
-                    //         <a href={item.url} className="btn btn-primary">Read More...</a>
-                    //     </div>
-                    // </Col>
                 ))
             }
         </Row>
